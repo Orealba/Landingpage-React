@@ -4,7 +4,43 @@ import "../../styles/Footer.css";
 const Footer = () => {
 	return (
 		<div className="container-footer">
-			<p>Contenido</p>
+			<div>
+				<h6>Contenido</h6>
+				<ul>
+					<li>
+						<a href="">Quines Somos</a>
+					</li>
+					<li>
+						<a href="">De donde venimos</a>
+					</li>
+					<li>
+						<a href="">A donde vamos</a>
+					</li>
+				</ul>
+			</div>
+
+			<div>
+				<h6>Redes Sociales</h6>
+				<p>
+					<i class="fab fa-instagram">
+						<span className="icon">Instagram</span>
+					</i>
+				</p>
+				<p>
+					<i class="fab fa-facebook-square">
+						<span className="icon">Facebook</span>
+					</i>
+				</p>
+				<p>
+					<i class="fab fa-twitter">
+						<span className="icon">Twitter</span>
+					</i>
+				</p>
+			</div>
+
+			<div>
+				<h6>Contenido legal</h6>
+			</div>
 		</div>
 	);
 };

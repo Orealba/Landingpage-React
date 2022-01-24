@@ -1,4 +1,11 @@
 .container-footer {
     border: solid 3px red;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    }
+    .icon {
+        margin-left: 10%;
+        padding-left: 10%;
     }
