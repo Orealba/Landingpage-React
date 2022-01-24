@@ -8,10 +8,12 @@ const Footer = () => {
 				<p>Contenido</p>
 			</div>
 			<div>
-				<p></p>
+				<p>Redes Sociales</p>
 			</div>
 			<div>
-				<p></p>
+				<p>
+					Contenido Legal
+				</p>
 			</div>
 		</div>
 	);
