@@ -1,3 +1,5 @@
-.footer {
-    border: 3px red;
+.container-footer {
+    border: solid 3px red;
+    display: flex;
+    flex-direction: row;
 }
