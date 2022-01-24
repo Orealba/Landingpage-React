@@ -1,0 +1,12 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+.container-form {
+    margin-bottom: 3%;
+    width: 500px;
+    height: auto;
+    border-radius: 5%;
+    background-color: brown;
+    padding: 3%;
+}
