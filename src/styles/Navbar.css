@@ -1,0 +1,32 @@
+.navbar-h{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(182, 177, 177);
+    color: rgb(143, 10, 10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+}
+.nav-links-h{
+   
+    grid-template-columns: repeat(4,auto);
+    grid-row-gap:20px;
+    list-style: none;
+}
+.nav-link-h{
+    
+text-decoration: none;
+color: white;
+transition: 0.3s all;
+}
+
+.nav-link-h:hover{
+    color:rgb(143, 10, 10);
+}
+.nav-icon{
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
