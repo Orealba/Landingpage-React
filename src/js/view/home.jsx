@@ -1,8 +1,10 @@
 import React from "react";
-import Footer from "../component/Footer";
+import Footer from "../component/Footer.jsx";
 
 const Home = () => {
-	return <Footer />;
+	return (
+    <Footer />
+    )
 };
 
 export default Home;
