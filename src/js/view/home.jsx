@@ -1,8 +1,18 @@
 import React from "react";
-import Footer from "../component/Footer";
+
+import Header from "../component/Header.jsx";
+import Navbar from "../component/Navbar.jsx";
+import Seccion1 from "../component/Seccion1.jsx";
 
 const Home = () => {
-	return <Footer />;
+	return (
+		<>
+			<Header />
+			<Navbar />
+			<Seccion1 />
+		</>
+	);
+
 };
 
 export default Home;
