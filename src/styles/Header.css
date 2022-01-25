@@ -1,7 +1,13 @@
 .titulo{
-    font-family:monospace;
-    color:rgb(143, 10, 10);
+    
+    color: black;
     text-align: center;
-    margin-top: 0%;
-    background-color: rgb(168, 161, 161);
+    margin-top: 3%;
+    background-color: transparent
+   
+    
+}
+h1{
+  font-family: 'Brawler', serif;
+  font-size: 65px; 
 }

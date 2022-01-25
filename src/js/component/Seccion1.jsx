@@ -17,7 +17,7 @@ const Seccion1 = () => {
 					<p className="card-text-h">
 						Somos estudiantes de programación, que hemos decidido
 						darnos una oportunidad en este mundo maravilloso para
-						crear cosas únicas
+						crear cosas únicas.
 					</p>
 				</div>
 			</div>
