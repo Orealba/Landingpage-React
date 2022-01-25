@@ -3,8 +3,8 @@ import "../../styles/Footer.css";
 
 const Footer = () => {
 	return (
-		<div className="container-footer">
-			<div className="footer-boxes">
+		<div className="container-footer ">
+			<div className="footer-boxes row align-items-start">
 				<h6>Contenido</h6>
 				<ul>
 					<li>
@@ -19,7 +19,7 @@ const Footer = () => {
 				</ul>
 			</div>
 
-			<div className="footer-boxes">
+			<div className="footer-boxes row align-items-start">
 				<h6>Redes Sociales</h6>
 				<p>
 					<i class="fab fa-instagram">
@@ -38,7 +38,7 @@ const Footer = () => {
 				</p>
 			</div>
 
-			<div className="footer-boxes">
+			<div className="footer-boxes row align-items-start">
 				<h6>Contenido legal</h6>
 			</div>
 		</div>

@@ -15,7 +15,8 @@ const Contact = () => {
 						type="email"
 						className="form-control"
 						id="exampleFormControlInput1"
-						placeholder="name@example.com"></input>
+						placeholder="name@example.com"
+						required></input>
 				</div>
 				<div class="mb-3">
 					<label
@@ -26,7 +27,8 @@ const Contact = () => {
 					<textarea
 						className="form-control"
 						id="exampleFormControlTextarea1"
-						rows="3"></textarea>
+						rows="3"
+						required></textarea>
 				</div>
 				<div>
 					<button type="submit" className="btn btn-primary">
