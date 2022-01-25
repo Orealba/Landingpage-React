@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../styles/Navbar.css";
+import { FiMenu, FiX } from "react-icons/fi";
 
 const Navbar = () => {
+	const [open, setOpen] = useState(false);
+
 	return (
 		<nav className="navbar-h">
+			<a
+				href="/"
+				className="nav-logo-h"
+				onClick={() => setOpen(false)}></a>
+			<div onClick={() => setOpen(!open)} className="nav-icon-h">
+				{open ? <FiX /> : <FiMenu />}
+			</div>
 			<ul className={open ? "nav-links-h active" : "nav-links-h"}>
 				<li className="nav-item-h">
 					<a
