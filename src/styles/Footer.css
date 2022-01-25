@@ -4,20 +4,21 @@
     flex-direction: row;
     justify-content: space-between;
     width: 80%;
-    
-    }
-    .icon {
+    color: white;
+       
+}
+.icon {
         margin-left: 10%;
         margin-bottom: 10%;
         padding-left: 1%;
-    }
-    a {
-        color: black;
+}
+a {
+       color:white;
         text-decoration: none;
        
-    }
-    li {
+}
+li {
         list-style:none;
-    }
+}
     
     
