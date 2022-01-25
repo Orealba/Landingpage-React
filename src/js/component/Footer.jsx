@@ -19,25 +19,31 @@ const Footer = () => {
 
 			<div className="footer-boxes row align-items-start">
 				<h6>Redes Sociales</h6>
-				<p>
-					<i class="fab fa-instagram">
-						<span className="icon">Instagram</span>
-					</i>
-				</p>
-				<p>
-					<i class="fab fa-facebook-square">
-						<span className="icon">Facebook</span>
-					</i>
-				</p>
-				<p>
-					<i class="fab fa-twitter">
-						<span className="icon">Twitter</span>
-					</i>
-				</p>
+
+				<i class="fab fa-instagram">
+					<span className="icon">Instagram</span>
+				</i>
+
+				<i class="fab fa-facebook-square">
+					<span className="icon">Facebook</span>
+				</i>
+
+				<i class="fab fa-twitter">
+					<span className="icon">Twitter</span>
+				</i>
 			</div>
 
 			<div className="footer-boxes row align-items-start">
 				<h6>Contenido legal</h6>
+				<ul>
+					<li>
+						<a href="#">Política de privacidad</a>
+					</li>
+
+					<li>
+						<a href="#">Aviso Legal</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	);
