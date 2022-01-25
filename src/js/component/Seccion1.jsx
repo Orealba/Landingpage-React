@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "../../styles/Seccion1.css";
 import bootstrap from "bootstrap";
-
+import seccionfoto from "../../img/seccion1.jpg";
 const Seccion1 = () => {
 	return (
 		<>
 			<div className="card mb-3 m-5 -h">
 				<img
-					src="https://images.unsplash.com/photo-1608560610603-c7ebd7b0fc05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+					src={seccionfoto}
 					className="card-img-top-h"
 					alt="tecnologia"
 					width="auto"
