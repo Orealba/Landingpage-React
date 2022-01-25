@@ -9,7 +9,7 @@ const Contact = () => {
 					<label
 						for="exampleFormControlInput1"
 						className="form-label">
-						Dinos tú email para contactar
+						Dinos tu email para contactar
 					</label>
 					<input
 						type="email"
