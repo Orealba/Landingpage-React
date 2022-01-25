@@ -1,3 +1,6 @@
 .card {
     opacity: 80%;
 }
+.card-body{
+    background-color: rgb(170, 164, 172);
+}
