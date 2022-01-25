@@ -9,7 +9,7 @@ const Contact = () => {
 					<label
 						for="exampleFormControlInput1"
 						className="form-label">
-						Email address
+						Dinos tú email para contactar
 					</label>
 					<input
 						type="email"
@@ -21,12 +21,17 @@ const Contact = () => {
 					<label
 						for="exampleFormControlTextarea1"
 						className="form-label">
-						Example textarea
+						Cuéntanos que deseas saber...
 					</label>
 					<textarea
 						className="form-control"
 						id="exampleFormControlTextarea1"
 						rows="3"></textarea>
+				</div>
+				<div>
+					<button type="submit" className="btn btn-primary">
+						Contáctanos
+					</button>
 				</div>
 			</form>
 		</div>

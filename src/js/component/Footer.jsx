@@ -19,7 +19,7 @@ const Footer = () => {
 				</ul>
 			</div>
 
-			<div>
+			<div className="footer-boxes">
 				<h6>Redes Sociales</h6>
 				<p>
 					<i class="fab fa-instagram">
@@ -38,7 +38,7 @@ const Footer = () => {
 				</p>
 			</div>
 
-			<div>
+			<div className="footer-boxes">
 				<h6>Contenido legal</h6>
 			</div>
 		</div>

@@ -8,14 +8,11 @@
     .icon {
         margin-left: 10%;
         padding-left: 10%;
-    
     }
     a {
         color: black;
     }
     .footer-boxes {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        
-    }
+       height: auto;
+        vertical-align: top;
+     }

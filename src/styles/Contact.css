@@ -8,9 +8,10 @@ body{
 }
 .container-form {
     margin-bottom: 3%;
-    width: 500px;
+    margin-top: 3%;
+    width: 50%;
     height: auto;
     border-radius: 5%;
-    background-color: brown;
+    background-color: rgb(194, 149, 207);
     padding: 3%;
 }
