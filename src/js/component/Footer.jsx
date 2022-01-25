@@ -10,11 +10,9 @@ const Footer = () => {
 					<li>
 						<a href="">Quines Somos</a>
 					</li>
+
 					<li>
-						<a href="">De donde venimos</a>
-					</li>
-					<li>
-						<a href="">A donde vamos</a>
+						<a href="">El equipo</a>
 					</li>
 				</ul>
 			</div>
