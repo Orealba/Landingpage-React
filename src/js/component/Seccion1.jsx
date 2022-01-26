@@ -12,7 +12,7 @@ const Seccion1 = () => {
 					alt="tecnologia"
 					width="auto"
 					height="500"></img>
-				<div className="card-body">
+				<div className="card-body" id="animado">
 					<h5 className="card-title">Quiénes somos</h5>
 					<p className="card-text">
 						Somos estudiantes de programación, que hemos decidido
