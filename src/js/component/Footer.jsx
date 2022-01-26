@@ -8,11 +8,11 @@ const Footer = () => {
 				<h6>Contenido</h6>
 				<ul>
 					<li>
-						<a href="Seccion1">Quiénes Somos</a>
+						<a href="#S1">Quiénes Somos</a>
 					</li>
 
 					<li>
-						<a href="Seccion2">El equipo</a>
+						<a href="#S2">El equipo</a>
 					</li>
 				</ul>
 			</div>

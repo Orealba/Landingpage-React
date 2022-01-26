@@ -5,7 +5,7 @@ import seccionfoto from "../../img/seccion1.jpg";
 const Seccion1 = () => {
 	return (
 		<>
-			<div className="card m-5">
+			<div className="card m-5" id="S1">
 				<img
 					src={seccionfoto}
 					className="card-img-top"
