@@ -1,0 +1,18 @@
+
+.card mb-3-h{
+height:10% ;
+width: 10% !important;
+
+}
+.card-title-h{
+    font-family: monospace;
+    color: white;
+}
+.card-text-h{
+    font-family: monospace;
+color: white;
+}
+.card-body-h{
+    background-color: rgb(170, 164, 172);
+    padding: 3%;
+}
