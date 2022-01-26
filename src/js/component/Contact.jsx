@@ -22,7 +22,7 @@ const Contact = () => {
 					<label
 						for="exampleFormControlTextarea1"
 						className="form-label">
-						Cuéntanos que deseas saber...
+						Cuéntanos qué deseas saber...
 					</label>
 					<textarea
 						className="form-control"

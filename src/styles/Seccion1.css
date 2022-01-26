@@ -1,18 +1,10 @@
-
-.card mb-3-h{
-height:10% ;
-width: 10% !important;
-
+.card {
+    opacity: 80%;
+    font-family: 'Brawler', serif;
+    border-radius: 20%;
 }
-.card-title-h{
-    font-family: monospace;
-    color: white;
-}
-.card-text-h{
-    font-family: monospace;
-color: white;
-}
-.card-body-h{
+.card-body{
     background-color: rgb(170, 164, 172);
-    padding: 3%;
+    margin: 0;
+    
 }

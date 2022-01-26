@@ -1,6 +1,7 @@
 .card {
     opacity: 80%;
     font-family: 'Brawler', serif;
+    border-radius: 20%;
 }
 .card-body{
     background-color: rgb(170, 164, 172);

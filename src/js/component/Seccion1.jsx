@@ -5,19 +5,24 @@ import seccionfoto from "../../img/seccion1.jpg";
 const Seccion1 = () => {
 	return (
 		<>
-			<div className="card mb-3 m-5 -h">
+			<div className="card m-5">
 				<img
 					src={seccionfoto}
-					className="card-img-top-h"
+					className="card-img-top"
 					alt="tecnologia"
 					width="auto"
-					height="500px"></img>
-				<div className="card-body-h">
-					<h5 className="card-title-h">Quiénes somos</h5>
-					<p className="card-text-h">
+					height="500"></img>
+				<div className="card-body">
+					<h5 className="card-title">Quiénes somos</h5>
+					<p className="card-text">
 						Somos estudiantes de programación, que hemos decidido
 						darnos una oportunidad en este mundo maravilloso para
 						crear cosas únicas.
+					</p>
+					<p className="card-text">
+						<small className="text-muted">
+							Last updated 5 mins ago
+						</small>
 					</p>
 				</div>
 			</div>
