@@ -2,6 +2,7 @@
     opacity: 80%;
     font-family: 'Brawler', serif;
     border-radius: 20%;
+
     
 }
 #animado {
@@ -40,3 +41,17 @@
           width: 100%;
         }
       }
+
+      #fotito:hover{
+        animation-name: giro;
+        animation-duration: 3s;
+        animation-iteration-count: initial;
+
+      }
+      @keyframes giro{
+        from{
+          transform: rotate(0deg);
+        } to {
+          transform: rotate(360deg);
+        }
+           }

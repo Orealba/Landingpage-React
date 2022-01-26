@@ -1,6 +1,6 @@
 .titulo{
     
-    color: black;
+    color: rgb(139, 10, 10);
     text-align: center;
     margin-top: 3%;
     background-color: transparent;
@@ -13,26 +13,19 @@ h1{
   
 }
 
-<style> 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-  
-}
-#my-title {
-  opacity: 0;
-  animation-name: fadeIn;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  font-family:'Brawler', serif;
-  color: rgb(231, 51, 19);
 
-}
-
+#my-title:hover {
+animation-name: giro;
+animation-duration: 3s;
+animation-iteration-count: initial;
+ }
+@keyframes giro{
+from{
+transform: rotate(0deg);
+ } to {
+transform: rotate(360deg);
+ }
+  }
 
 
 

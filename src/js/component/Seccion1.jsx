@@ -9,6 +9,7 @@ const Seccion1 = () => {
 				<img
 					src={seccionfoto}
 					className="card-img-top"
+					id="fotito"
 					alt="tecnologia"
 					width="auto"
 					height="500"></img>
