@@ -1,13 +1,33 @@
 .titulo{
     
-    color: black;
+    color: rgb(139, 10, 10);
     text-align: center;
     margin-top: 3%;
-    background-color: transparent
-   
+    background-color: transparent;
+    
     
 }
 h1{
   font-family: 'Brawler', serif;
   font-size: 65px; 
+  
 }
+
+
+#my-title:hover {
+animation-name: giro;
+animation-duration: 3s;
+animation-iteration-count: initial;
+ }
+@keyframes giro{
+from{
+transform: rotate(0deg);
+ } to {
+transform: rotate(360deg);
+ }
+  }
+
+
+
+
+  
