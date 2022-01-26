@@ -4,7 +4,7 @@ import "../../styles/Header.css";
 const Header = () => {
 	return (
 		<>
-			<div className="titulo">
+			<div className="titulo" id="my-title">
 				<h1>Futuros programadores</h1>
 			</div>
 			<style>
