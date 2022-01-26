@@ -1,0 +1,22 @@
+* {
+    margin: auto;
+    padding: 0;
+    
+}
+body {
+    background: url(https://images-ext-2.discordapp.net/external/O6E_SWq7u42wmWFg85Vb8om8e-mgCEgz07DO-GxIh-g/%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D687%26q%3D80/https/images.unsplash.com/photo-1558591710-4b4a1ae0f04d?width=315&height=472);
+    background-size: cover;
+    font-family: 'Brawler', serif;
+   
+}
+.container-form {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    width: 50%;
+    height: auto;
+    border-radius: 5%;
+    background-color: rgb(170, 164, 172);
+    padding: 3%;
+    opacity: 98%;
+    
+}

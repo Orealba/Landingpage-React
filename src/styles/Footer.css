@@ -1,3 +1,26 @@
-.Footer {
-    border: 3px red;
+
+.container-footer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    color: black;
+    font-family: 'Brawler', serif;
+       
 }
+.icon {
+        margin-left: 10%;
+        margin-bottom: 10%;
+        padding-left: 1%;
+}
+a {
+       color:black;
+        text-decoration: none;
+       
+}
+li {
+        list-style:none;
+}
+    
+    
