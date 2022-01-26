@@ -10,7 +10,7 @@ const Seccion2 = () => {
 					src={imagen1}
 					width="auto"
 					height="500"
-					className="card-img-top"
+					className="card-img-top imagen slide"
 					alt="Reunion"></img>
 				<div className="card-body">
 					<h5 className="card-title">El Equipo...</h5>
