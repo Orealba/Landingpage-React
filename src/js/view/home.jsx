@@ -14,7 +14,7 @@ const Home = () => {
 			<Header />
 			<Navbar />
 			<Seccion1 />
-      <Seccion2 />
+      		<Seccion2 />
 			<Contact />
 			<Footer />
 		</>
