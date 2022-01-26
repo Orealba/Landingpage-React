@@ -35,7 +35,8 @@ body {
     
 }
 #myform:hover {
-   padding: 30%;
+    
+    padding: 20%;
     animation-name: spin;
     animation-duration: 1000ms;
     animation-iteration-count:initial;

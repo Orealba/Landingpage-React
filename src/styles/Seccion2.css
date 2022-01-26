@@ -32,13 +32,13 @@
 .card-body:hover{
     border-radius:80%;
     -webkit-border-radius:50%;
-    box-shadow: 0px 0px 30px 30px #1eec5c;
+    box-shadow: 0px 0px 30px 30px #0d0aad;
     -webkit-box-shadow: 0px 0px 15px 15px #1e33ec;
     animation-name: spin;
     animation-duration: 1000ms;
     animation-iteration-count:initial;
     animation-timing-function: linear;
-    background-color: greenyellow;
+    background-color: rgb(255, 47, 109);
     color:indigo;
     
 }
